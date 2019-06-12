@@ -1,6 +1,6 @@
 import 'package:wikidata_client/wikidata_client.dart';
 
-Future<void> main() async {
+main() async {
 
   String queryString = """
 SELECT ?item ?itemLabel 
@@ -10,7 +10,6 @@ WHERE
 }
 """;
 
-  SparqlQuery query = SparqlQuery(queryString: queryString);
-  await query.run();
-  await print (query.result);
+  final result = await SparqlQuery(queryString: queryString).run();
+  print(result);
 }
