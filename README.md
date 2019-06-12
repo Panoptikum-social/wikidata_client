@@ -1,22 +1,24 @@
-A library for Dart developers.
+A minimalist SPARQL library for dart.
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+## Motivation
+
+I have several use cases for this library, but to give an example, I would like to be able to search for
+Wikipedia pages on certain topics from a Flutter app using an audio only interface.
+
+I am by no way an Flutter, Dart or Wikidata (or SPARQL) expert, so I see this as a beginner project to get
+into all of these projects and topics.
+
+This should be able to serve as an inspiration, what can be done, and I will use it in my own projects,
+but don't expect this to be a well maintained library. Feel free to use the source in your own projects!
 
 ## Usage
 
-A simple usage example:
+is still missing...
 
-```dart
-import 'package:wikidata_client/wikidata_client.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
 
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/PanoptikumIO/wikidata_client.git
+
